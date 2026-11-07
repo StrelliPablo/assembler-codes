@@ -1,5 +1,7 @@
-*.obj
 *.exe
+*.EXE
+*.obj
+*.OBJ
 *.map
 *.lst
 .vscode/
