@@ -4,4 +4,6 @@
 *.OBJ
 *.map
 *.lst
+!MASM.EXE
+!LINK.EXE
 .vscode/
