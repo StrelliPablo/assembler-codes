@@ -6,7 +6,7 @@ Este proyecto es un programa de residente en memoria de tipo **TSR (Terminate an
 
 ## Explicación Técnica (Arquitectura y Bajo Nivel)
 
-Este código es un excelente ejemplo de programación a nivel de sistema. Aquí se detallan los conceptos clave que implementa:
+> Este código es un excelente ejemplo de programación a nivel de sistema. Aquí se detallan los conceptos clave que implementa:
 
 ### 1. Enganche de Interrupciones (Interrupt Hooking)
 El programa intercepta el vector de interrupción del temporizador del sistema (Tick del reloj, típicamente `INT 1Ch`). Guarda la dirección original (IP y CS) y coloca la dirección de su propia rutina (`CLK_INT`) en la tabla de vectores.
